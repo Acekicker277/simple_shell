@@ -41,10 +41,4 @@ The following builtin commands are supported:
 - exits the program
 
 .SH BUGS
-No known bugs.contact the authors if any
-
-.SH AUTHORS
-.br
-.IROKA JULIET
-.br
-.AYOBAMI OYETOLA
+No known bugs. Please report any bugs to the authors.
