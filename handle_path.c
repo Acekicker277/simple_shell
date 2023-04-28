@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * check_path - A function that checkout the path
+ * check_path -function that checkout the path
  * @env: wherever
  * @argvs: wherever
  * Return: return -1
@@ -35,7 +35,7 @@ int check_path(char **env, char **argvs)
 
 
 /**
- * count_chr - count how many char  delimition have *srt
+ * count_chr - count how many chr  delimitn have *srt
  * @str: string
  * @delimits: char to find in str
  * Return: - int number

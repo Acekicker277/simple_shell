@@ -2,7 +2,7 @@
 /**
  * _strtok - Split to token of strok
  * @line_messages: recieved to user
- * Return: chit(s)
+ * Return: the chit(s)
  */
 char **_strtok(char *line_messages)
 {
@@ -28,6 +28,5 @@ char **_strtok(char *line_messages)
 	}
 	i++;
 	array[i] = NULL;
-
 	return (array);
 }

@@ -14,16 +14,11 @@
 
 #define PATH_DELIMIT "=:"
 #define DELIMIT " \t\r\n\a\""
-#define BUFF_MAX 10
-/* max buffer size*/
-#define MAXLIST 100
-/* max number of commands to be supported.*/
-#define STDOUT STDOUT_FILENO
-/* abbreviating this variable.*/
-#define CLEAR_SCREEN write(STDOUT, "\033[H\033[J", 6)
-/*a macro*/
-#define NEW_LINE write(STDOUT, "\n", 1)
-/*a macro*/
+#define BUFF_MAX 10 /* max buffer size*/
+#define MAXLIST 100 /* max number of commands to be supported.*/
+#define STDOUT STDOUT_FILENO /* abbreviating this variable.*/
+#define CLEAR_SCREEN write(STDOUT, "\033[H\033[J", 6) /*a macro*/
+#define NEW_LINE write(STDOUT, "\n", 1) /*a macro*/
 #define TOK_BUFSIZE 64
 extern char **environ;
 
